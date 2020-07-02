@@ -4,6 +4,6 @@
 def meal_choice(veg1, veg2, protein = "tofu")
   puts "What a nutritious meal!"
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
-  return full_meal 
+  puts full_meal 
   full_meal
 end 
